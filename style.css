@@ -1,0 +1,48 @@
+#laptop{
+    border-radius: 5%;
+    height: 400;
+    width: 600;
+
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+#job {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: pre; /* Preserve whitespace and line breaks */
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation: typewriter 4s steps(40, end) 1s 1 normal both,
+               blinkTextCursor 500ms steps(40, end) infinite normal;
+    width: fit-content; /* Adjust width to fit content */
+}
+
+@keyframes blinkTextCursor {
+    from { border-right-color: rgba(255, 255, 255, .75); }
+    to { border-right-color: transparent; }
+}
+
+#mypicture{
+    border-radius: 50%;
+    width: 250px;
+    border-image: 10px;
+}
+
+.custom-margin {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+
+
+
